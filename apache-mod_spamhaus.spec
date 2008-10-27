@@ -5,12 +5,12 @@
 
 Summary:	Apache DNSBL module
 Name:		apache-%{mod_name}
-Version:	0.5
+Version:	0.6
 Release: 	%mkrel 1
 Group:		System/Servers
 License:	GPLv3
 URL:		http://sourceforge.net/projects/mod-spamhaus/
-Source0:	http://dfn.dl.sourceforge.net/sourceforge/mod-spamhaus/%{mod_name}05.tar.gz
+Source0:	http://dfn.dl.sourceforge.net/sourceforge/mod-spamhaus/mod-spamhaus-%{version}.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
@@ -64,4 +64,3 @@ rm -rf %{buildroot}
 %doc ReadMe.txt
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
-
