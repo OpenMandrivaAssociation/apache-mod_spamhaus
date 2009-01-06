@@ -6,7 +6,7 @@
 Summary:	Apache DNSBL module
 Name:		apache-%{mod_name}
 Version:	0.6
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Group:		System/Servers
 License:	GPLv3
 URL:		http://sourceforge.net/projects/mod-spamhaus/
