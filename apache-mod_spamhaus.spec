@@ -9,7 +9,7 @@ Version:	0.7
 Release: 	%mkrel 6
 Group:		System/Servers
 License:	GPLv3
-URL:		http://sourceforge.net/projects/mod-spamhaus/
+URL:		https://sourceforge.net/projects/mod-spamhaus/
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/mod-spamhaus/mod-spamhaus-%{version}.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
